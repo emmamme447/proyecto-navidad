@@ -35,7 +35,7 @@ body, a, a:hover {
 }
 
 /*NAVBAR*/
-@mixin navegadorflex ($contenedor, $distribucion, $agrupacion, $colorfondo1, $titulos, $anchoweb, $altoweb, $fijacion, $nada, $escondido, $bloque, $tamanoletra, $relleno, $alturalinea, $colorletra, $nadadecoracion, $transicion){
+@mixin navegadorflex ($contenedor, $distribucion, $agrupacion, $colorfondo1, $titulos, $anchoweb, $altoweb, $fijacion, $estilolista, $escondido, $bloque, $tamanoletra, $relleno, $alturalinea, $colorletra, $nadadecoracion, $transicion){
     
     display: $contenedor;
     justify-content: $distribucion;
@@ -45,7 +45,7 @@ body, a, a:hover {
     width: $anchoweb;
     height: $altoweb;
     position: $fijacion;
-    list-style: $nada;
+    list-style: $estilolista;
     overflow: $escondido;
     font-size: $tamanoletra;
     padding: $relleno;
@@ -60,7 +60,7 @@ body, a, a:hover {
 }
 
 .right ul{
-    @include navegadorflex(block, none, hidden);
+    @include navegadorflex(flex, none, hidden);
 }
 
 .right ul li a{
