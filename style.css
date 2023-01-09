@@ -1,4 +1,4 @@
-/*EFECTO NIEVE*/
+/*EFECTO NIEVE PAG EMMA*/
 .intro,
 .intro a {
   color: #fff;
@@ -151,7 +151,7 @@ body, a, a:hover {
   cursor: url(http://cur.cursors-4u.net/holidays/hol-4/hol356.cur), progress;
 }
 
-/*NAVBAR*/
+/*NAVBAR EMMA*/
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -185,6 +185,12 @@ body, a, a:hover {
   color: #d4131f;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 28%;
+  }
+}
+/*PARTE AURI*/
 h1 {
   font-family: "Chicle";
   padding-top: 20%;
@@ -256,8 +262,8 @@ h1 {
   text-align: center;
 }
 
-/*SECTION*/
-section {
+/*SECTION EMMA*/
+.parteEmma {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 8rem;
   padding-bottom: -1rem;
@@ -324,6 +330,7 @@ section {
   position: absolute;
 }
 
+/*PARTE AURI*/
 .texto1 {
   margin-top: 20px;
   font-size: medium;
@@ -466,10 +473,10 @@ section {
   background-color: #0d5446;
 }
 
-/*FOOTER*/
+/*FOOTER EMMA*/
 .container {
   display: grid;
-  padding-left: 17rem;
+  padding-left: 10%;
   padding-block: 2rem;
   background-color: #d4131f;
   color: white;
