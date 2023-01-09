@@ -85,6 +85,56 @@ h1{
   color: white;
   text-align: center;
 }
+/*PAGINA SILVIA*/
+.colorbody{
+  background-color: #096552;
+}
+
+.titulo{
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+  font-family: "chicle", "Courier New", Courier,  monospace;
+  font-weight: lighter;
+}
+.parrafos{
+  text-align: center;
+  color: white;
+  margin-top: 50%;
+  margin-left: 20%;
+ align-items: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  margin-block: 40px;
+  height: 85vh; 
+  background-color: #0d5446;
+  width: 900px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.baner{
+  margin-top: 5%;
+  width: 100%;
+  height: 80%;
+ }
+ button{
+  height: 7%;
+  background-color: #d4131f;
+  color: white;
+  border-radius: 10%;
+  font-family:'Chicle', cursive;
+  border: #d4131f;
+  align-items: center;
+  margin-top: 25%;
+  }
+
+  #papa {
+    width: 300px;
+    padding:10px;
+    align-items: center;
+  }
+/*FIN PAGINA SILVIA*/
 
 @mixin gri{
   display: grid;
