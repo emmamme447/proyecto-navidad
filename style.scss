@@ -1,4 +1,4 @@
-/*EFECTO NIEVE PAG EMMA*/
+/*EFECTO NIEVE*/
 .intro,
 .intro a{
   color:#fff; 
@@ -34,7 +34,7 @@ body, a, a:hover {
   cursor: url(http://cur.cursors-4u.net/holidays/hol-4/hol356.cur), progress;
 }
 
-/*NAVBAR EMMA*/
+/*NAVBAR*/
 @mixin navegadorflex ($contenedor, $distribucion, $agrupacion, $colorfondo1, $titulos, $anchoweb, $altoweb, $fijacion){
     display: $contenedor;
     justify-content: $distribucion;
@@ -72,19 +72,63 @@ body, a, a:hover {
     color: #d4131f;
 }
 
-@media screen and (max-width: 768px){
-  .navbar{
-    height: 28%;
-  }
-}
-
-/*PARTE AURI*/
 h1{
   font-family: 'Chicle';
   padding-top: 20%;
   color: white;
   text-align: center;
 }
+/*PESTAÑA REYES*/
+.colorbody{
+  background-color: #096552;
+}
+
+.titulo{
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+  font-family: "chicle", "Courier New", Courier,  monospace;
+  font-weight: lighter;
+}
+.parrafos{
+  text-align: center;
+  color: white;
+  margin-top: 50%;
+  margin-left: 20%;
+ align-items: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  margin-block: 40px;
+  height: 85vh; 
+  background-color: #0d5446;
+  width: 900px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.reyesbanner{
+  margin-top: 10%;
+  width: 100%;
+  height: 80%;
+ }
+ button{
+  height: 7%;
+  background-color: #d4131f;
+  color: white;
+  border-radius: 10%;
+  font-family:'Chicle', cursive;
+  border: #d4131f;
+  align-items: center;
+  margin-top: 25%;
+  }
+
+  #reyes {
+    width: 300px;
+    padding:10px;
+    align-items: center;
+  }
+/*FIN PESTAÑA REYES*/
+
 /*PAGINA SILVIA*/
 .colorbody{
   background-color: #096552;
@@ -199,8 +243,8 @@ h1{
   @include fotos;
 }
 
-/*SECTION EMMA*/
-.parteEmma {
+/*SECTION*/
+section {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 8rem;
     padding-bottom: -1rem;
@@ -265,7 +309,6 @@ h1{
   position: absolute;
 }
 
-/*PARTE AURI*/
 @mixin textosgri1{
   margin-top: 20px;
   font-size: medium;
@@ -389,10 +432,10 @@ h1{
   background-color: #0d5446;
 }
 
-/*FOOTER EMMA*/
+/*FOOTER*/
 .container {
   display: grid;
-  padding-left: 10%;
+  padding-left: 17rem;
   padding-block: 2rem;
   background-color: #d4131f;
   color: white;
